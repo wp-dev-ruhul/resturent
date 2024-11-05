@@ -1,0 +1,379 @@
+/* Heder section responsive css part start  */
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* header section css part start */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-family: var(--RaleWay-font);
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+        padding: 7px 00px;
+        text-align: center;
+    }
+
+    /* banner section css pat start  */
+    .banner_main {
+        padding-bottom: 50px;
+    }
+
+    .b_title {
+        font-size: 42px;
+        margin-top: 40px;
+    }
+
+    .b_btn_main {
+        width: 350px;
+    }
+
+    .b_btn {
+        width: 150px;
+    }
+
+    /* banner section css pat End */
+
+    /* /* about section css part start  */
+    #about {
+        padding: 40px 0px 30px 0px;
+
+    }
+
+    #about .about_sub {
+        font-family: var(--lato-font);
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--secondary-color);
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 0px 10px;
+    }
+
+    .ab_photo {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    /* about section responsive css part End  */
+    /* ingredients section css part start  */
+
+    #ingredients {
+        width: 100%;
+        padding: 40px 0px;
+
+    }
+
+    .ingredients_main {
+        padding: 30px 0px;
+        border-radius: 10px;
+
+    }
+
+    .ingredients_main .i_sub {
+
+        margin-top: 30px;
+        margin-bottom: 50px;
+        padding: 0px 20px;
+
+    }
+
+    /* ingredients section css part End  */
+      /* menu section css part start  */
+      .menu_c_main {
+        width: 100%;
+    }
+    .menu_item {
+        margin-top: 15px;
+    }
+
+    #menu {
+        padding: 30px 0px;
+    }
+
+    /* menu section css part End  */
+    /* review section css part start  */
+    #Reviews{
+        padding: 50px 0px;
+}
+.r_c{
+width: 100%;
+padding: 50px 15px;
+}
+.r_c_txt{
+  text-align: left !important;
+}
+    /* review section css part end */
+     /* contact section responsive start  */
+     #contact {
+        padding: 30px 0px;
+
+    }
+     .contact_form{
+        margin-top: 40px;
+    }
+    .contact_left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact_left img{
+            width: 40%;
+            margin: 0 auto !;
+
+    }
+/* contact section responsive End  */
+.fm-25{
+    margin-top: 50px;
+}
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+/* Medium devices (tablets, 768px and up) */
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header section css part start */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-family: var(--RaleWay-font);
+        font-size: 17px;
+        font-weight: 700;
+        color: #fff;
+        padding: 7px 00px;
+        text-align: center;
+    }
+
+    /* banner section css pat start  */
+    .banner_main {
+        padding-bottom: 40px;
+    }
+
+    .b_title {
+        font-size: 48px;
+        margin-top: 40px;
+
+    }
+
+    /* banner section css pat End */
+    /* /* about section css part start  */
+    #about {
+        padding: 40px 0px 30px 0px;
+
+    }
+
+    #about .about_sub {
+        font-family: var(--lato-font);
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--secondary-color);
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 0px 0px;
+    }
+
+    .ab_photo {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    /* about section responsive css part End  */
+    /* ingredients section css part start  */
+
+    #ingredients {
+        width: 100%;
+        padding: 60px 0px;
+
+    }
+
+    .ingredients_main {
+        padding: 50px 0px;
+        border-radius: 10px;
+
+    }
+
+    .ingredients_main .i_sub {
+
+        margin-top: 40px;
+        margin-bottom: 60px;
+        padding: 0px 20px;
+
+    }
+
+    /* ingredients section css part End  */
+     /* menu section css part start  */
+     .menu_c_main {
+        width: 100%;
+    }
+    .menu_item {
+        margin-top: 15px;
+    }
+
+    #menu {
+        padding: 30px 0px;
+    }
+
+    /* menu section css part End  */
+        /* review section css part start  */
+        #Reviews{
+            padding: 50px 0px;
+    }
+    .r_c{
+    width: 100%;
+    padding: 50px 15px;
+    }
+    .r_c_txt{
+      text-align: left !important;
+    }
+        /* review section css part end */
+            /* contact section responsive start  */
+     #contact {
+        padding: 30px 0px;
+
+    }
+     .contact_form{
+        margin-top: 40px;
+    }
+    .contact_left img{
+            width: 45%;
+
+    }
+/* contact section responsive End  */
+.fm-25{
+    margin-top: 50px;
+}
+}
+
+/* `lg` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header section css part start */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-family: var(--RaleWay-font);
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        padding: 7px 00px;
+        text-align: center;
+    }
+
+    /* banner section css pat start  */
+    .banner_main {
+        padding-bottom: 40px;
+    }
+
+    .b_title {
+        font-size: 58px;
+        margin-top: 40px;
+
+    }
+
+    /* banner section css pat End */
+    /* /* about section css part start  */
+    #about {
+        padding: 40px 0px 30px 0px;
+
+    }
+
+    #about .about_sub {
+        font-family: var(--lato-font);
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--secondary-color);
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 0px 0px;
+    }
+
+    .ab_photo {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    /* about section responsive css part End  */
+    /* ingredients section css part start  */
+
+    #ingredients {
+        width: 100%;
+        padding: 60px 0px;
+
+    }
+
+    .ingredients_main {
+        padding: 50px 0px;
+        border-radius: 10px;
+
+    }
+
+    .ingredients_main .i_sub {
+
+        margin-top: 40px;
+        margin-bottom: 60px;
+        padding: 0px 20px;
+
+    }
+
+    /* ingredients section css part End  */
+       /* menu section css part start  */
+       .menu_c_main {
+        width: 100%;
+    }
+    .menu_item {
+        margin-top: 15px;
+    }
+
+    #menu {
+        padding: 30px 0px;
+    }
+
+    /* menu section css part End  */
+        /* review section css part start  */
+        #Reviews{
+            padding: 50px 0px;
+    }
+    .r_c{
+    width: 100%;
+    padding: 50px 15px;
+    }
+    .r_c_txt{
+      text-align: left !important;
+    }
+        /* review section css part end */
+            /* contact section responsive start  */
+     #contact {
+        padding: 30px 0px;
+
+    }
+     .contact_form{
+        margin-top: 40px;
+    }
+    .contact_left img{
+            width: 45%;
+
+    }
+/* contact section responsive End  */
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+                /* contact section responsive start  */
+     #contact {
+        padding: 30px 0px;
+
+    }
+     .contact_form{
+        margin-top: 40px;
+    }
+    .contact_left img{
+            width: 45%;
+
+    }
+/* contact section responsive End  */
+.fm-25{
+    margin-top: 50px;
+}
+}
+
+/*responsive css part End */

@@ -1,0 +1,546 @@
+/* Google Font Lato and quicksand css link */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yeseva+One&display=swap');
+/* Google Font Lato and quicksand css link */
+
+/* Root color and font family */
+:root {
+    --Gentium-font: "Gentium Book Plus", serif;
+    --Yeseva-font: "Yeseva One", serif;
+    --lato-font: "Lato", sans-serif;
+    --OpenSans-font: "Open Sans", sans-serif;
+    --primary-color: #cc9900;
+    --secondary-color: #4c4c4c;
+}
+
+
+/* Root color and font family */
+/* basic css desing file */
+/* Target all browsers */
+input[type=number] {
+    -moz-appearance: textfield;
+    /* For Firefox */
+    -webkit-appearance: none;
+    /* For Chrome, Safari, Edge */
+    appearance: none;
+    /* For modern browsers */
+}
+
+/* Optional: Hide the up/down arrows in WebKit-based browsers (like Chrome) */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* clears the 'X' from Internet Explorer */
+input[type=search]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input[type=search]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+/* check box color change  */
+input[type="checkbox"]:checked {
+    accent-color: var(--logo-color);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+}
+
+body,
+header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+span,
+table,
+footer,
+nav,
+div,
+section {
+    padding: 0;
+    margin: 0;
+}
+
+/* copy section css part start  */
+.copy {
+    background-color: #9E9BBF;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.copy p,
+.copy p a {
+    font-size: var(--primary-font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000;
+}
+
+.copy p a {
+    color: rgb(3, 32, 32);
+    margin-left: 5px;
+}
+
+/* copy section css part End */
+/* basic css style desing ended */
+/* header section css part start  */
+.banner_main {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../image/Banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 150px;
+}
+
+/* navbar desing css part start  */
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar-toggler {
+    background-color: var(--primary-color);
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: var(--Gentium-font);
+    font-size: 21px;
+    line-height: auto;
+    font-weight: 700;
+    color: #fff;
+    padding: 0px 24px;
+
+}
+
+.nab_icon ul li {
+    padding: 5px 7px !important;
+}
+
+.nab_icon ul li a i {
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+/* navbar desing css part End */
+/* banner section css pat start  */
+.b_title {
+    font-family: var(--Yeseva-font);
+    font-size: 90px;
+    line-height: auto;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.b_btn_main {
+
+    width: 500px;
+    margin: 30px auto;
+}
+
+.b_btn {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 0px 10px;
+    border: 1px solid #000;
+}
+
+.b_t {
+    background: rgba(110, 110, 110, 0.6);
+    border: 1px solid #fff !important;
+}
+
+.b_btn a {
+    font-family: var(--lato-font);
+    font-size: 18px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* banner section css pat End */
+/* header section css part End */
+
+/* about section css part start  */
+#about {
+    padding: 70px 0px 30px 0px;
+
+}
+
+#about .about_title {
+    font-family: var(--Yeseva-font);
+    font-size: 36px;
+    line-height: auto;
+    color: var(--primary-color);
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+#about .about_sub {
+    font-family: var(--lato-font);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--secondary-color);
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 0px 100px;
+}
+
+/* about section css part End */
+/* ingredients section css part start  */
+
+#ingredients {
+    width: 100%;
+    background: url(../image/about-banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+
+}
+
+.ingredients_main {
+
+    background: rgba(0, 0, 0, 0.5);
+    padding: 70px 20px;
+
+}
+
+.ingredients_main .i_title {
+    font-family: var(--Yeseva-font);
+    font-size: 36px;
+    line-height: auto;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.ingredients_main .i_sub {
+    font-family: var(--lato-font);
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding: 0px 100px;
+
+}
+
+.i_img_box img {
+    margin: 0px 10px;
+}
+
+/* ingredients section css part End  */
+
+/* menu part css sectin start  */
+#menu {
+    padding: 50px 0px;
+}
+
+.menu_c_main {
+    width: 70%;
+    margin: 40px auto;
+}
+
+.menu_top_title .m_t_title {
+    font-family: var(--Yeseva-font);
+    font-size: 36px;
+    line-height: 24px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+
+}
+
+.menu_item {
+    margin-top: 15px;
+}
+
+.menu_item_title {
+    font-family: var(--Yeseva-font);
+    font-size: 21px;
+    line-height: 24px;
+    color: var(--primary-color);
+    padding: 10px 0px;
+
+}
+
+.menu_item_title span {
+    font-weight: 500;
+}
+
+.menu_item {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.bt-bor {
+    border-top: 1px solid var(--primary-color);
+    margin-top: 30px !important;
+}
+
+.menu_item_sub {
+    font-family: var(--lato-font);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--secondary-color);
+    text-align: left;
+
+
+}
+
+.p_special {
+    width: 55px;
+    height: 21px;
+    right: 0;
+    top: -21px;
+    background-color: var(--primary-color);
+    font-family: var(--lato-font);
+    font-size: 11px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 !important;
+
+}
+
+/* menu part css sectin End */
+
+/* revision section css part start  */
+#Reviews {
+    width: 100%;
+    background: url(../image/revision-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+
+
+}
+
+.r_c {
+    background: rgba(0, 0, 0, 0.8);
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px 54px;
+}
+
+.r_c_title {
+    font-family: var(--Yeseva-font);
+    font-size: 36px;
+    line-height: auto;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.r_c_txt {
+    font-family: var(--lato-font);
+    font-size: 25px;
+    line-height: 45px;
+    color: #fff;
+    margin-left: -15px;
+    margin-top: 5px;
+}
+
+/* revision section css part End  */
+
+/* contact section css part start  */
+
+#contact {
+    padding: 100px 0px;
+
+}
+
+.contact_left img {
+
+    margin: 0px 10px;
+}
+
+.contact_form {
+    width: 100%;
+}
+
+.c_f_title {
+    font-family: var(--Yeseva-font);
+    font-size: 36px;
+    line-height: 24px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.c_sub {
+    font-family: var(--lato-font);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--secondary-color);
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.f_in {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+
+.f_in label {
+    display: block;
+    font-family: var(--OpenSans-font);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.f_in label span {
+    margin-left: 2px;
+}
+
+.f_in input {
+    border: none;
+    outline: none;
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    padding: 7px 10px;
+}
+
+.f_in input::placeholder {
+    font-family: var(--OpenSans-font);
+    font-style: italic;
+    font-size: 16px;
+    color: var(--secondary-color);
+
+}
+
+.c_btn {
+    width: 200px;
+    margin: 0 auto;
+}
+
+form .f_btn {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    margin: 50px auto;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    font-family: var(--OpenSans-font);
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+/* contact section css part End */
+
+/* footer section css part start  */
+#footer {
+    background-color: #000;
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.f_l_title {
+
+    font-family: var(--Yeseva-font);
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 700%;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.footer_content_main img {
+    margin-bottom: 25px;
+}
+
+.f_l_txt {
+    font-family: var(--OpenSans-font);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+.f_l_txt span{
+    font-family: var(--OpenSans-font);
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.card_info ul li {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0px 7px;
+
+}
+.card_info ul li a{
+    font-family: var(--OpenSans-font);
+    font-size: 10px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.card_info ul li a i{
+    font-size: 20px;
+}
+/* footer section css part End */
