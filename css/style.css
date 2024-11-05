@@ -494,6 +494,7 @@ form .f_btn {
     background-color: #000;
     width: 100%;
     padding: 60px 0px;
+    overflow: hidden !important;
 }
 
 .f_l_title {
